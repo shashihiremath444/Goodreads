@@ -1,4 +1,4 @@
-package hANDmPROJECTY;
+package GoodReadProject;
 
 import java.time.Duration;
 
