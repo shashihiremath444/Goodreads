@@ -18,7 +18,7 @@ public class GoodRead {
 		driver.findElement(By.xpath("//a[text()='Sign up with email']")).click();
 		driver.findElement(By.className("a-link-emphasis")).click();
 		// enter the email ID and password
-		driver.findElement(By.id("ap_email")).sendKeys("shashihiremath444@gmail.com@gmail.com");
+		driver.findElement(By.id("ap_email")).sendKeys("shashihiremath444@gmail.com");
 		driver.findElement(By.id("ap_password")).sendKeys("Shashi@good4");
 		driver.findElement(By.id("signInSubmit")).click();
 		
