@@ -22,19 +22,19 @@ public class GoodRead {
 		driver.findElement(By.id("ap_password")).sendKeys("Shashi@good4");
 		driver.findElement(By.id("signInSubmit")).click();
 		
-/* the below three lines script are written for the after using the same email id and password alert will show */
+/* the below three lines script are written for the after using the same email id and password IMPORTANT MESSAGE alert will appearing */
 		//driver.findElement(By.name("password")).sendKeys("Shashi@good4");
 		//for enter the characters of shown in screen within 8 second
 		//Thread.sleep(8000);
 		//driver.findElement(By.id("signInSubmit")).click();
 		
-		// to search book "once more with feelings"
+		// to search book of "once more with feelings"
 		driver.findElement(By.xpath("//input[contains(@class,'searchBox')]")).sendKeys("once more with feelings");
 		driver.findElement(By.xpath("//button[contains(@class,'searchBox__icon')]")).submit();
 		driver.findElement(By.xpath("//button[@class='wtrToRead']")).submit();
 		
-		//Thread.sleep(2000) for load the web page
-		Thread.sleep(2000);
+		
+		Thread.sleep(2000);// for load the web page
 		driver.findElement(By.xpath("//a[text()='My Books']")).click();
 		driver.findElement(By.xpath("//img[@alt='Remove from my books']")).click();
 		
