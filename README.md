@@ -3,7 +3,13 @@
 programming language - java
 web automation tool - Selenium
 Chrome browser
-##URL - (https://www.goodreads.com/)
+URL - (https://www.goodreads.com/)
+Write a UI automation test to validate the below-given scenario.
+*[Login to goodreads.com ]
+2. Search for a specific book title
+3. Mark it as ‘want to read’
+4. Remove the selected book from my book list
+5. Logout
 
 -To trigger url using get().
 -To pass the data of mail and password using sendKeys().
