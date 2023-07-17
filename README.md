@@ -1,5 +1,5 @@
 # Goodreads
-## end-to-end testing for webapplication goodreads
+## UI automation testing for webapplication goodreads
 programming language - java
 web automation tool - Selenium
 Chrome browser
