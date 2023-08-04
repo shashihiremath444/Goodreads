@@ -19,7 +19,7 @@ public class GoodRead {
 		driver.findElement(By.className("a-link-emphasis")).click();
 		// enter the email ID and password
 		driver.findElement(By.id("ap_email")).sendKeys("shashihiremath444@gmail.com");
-		driver.findElement(By.id("ap_password")).sendKeys("***********");
+		driver.findElement(By.id("ap_password")).sendKeys("Shashi@good4");
 		driver.findElement(By.id("signInSubmit")).click();
 		
 /* the below three lines script are written for the after using the same email id and password IMPORTANT MESSAGE alert will appearing */
