@@ -7,7 +7,7 @@ URL - (https://www.goodreads.com/)
 
 - To trigger url using get().
 - To pass the data of mail and password using sendKeys().
-- Signin goodreads using mail "shashihiremath444@gmail.com" and password "Shashi@good4".
+- Signin goodreads using mail "shashihiremath444@gmail.com" and password "****".
 - click() is used to click on the element.
 
 - after using same mail id many times IMPORTANT MESSAGE alert will appeare
